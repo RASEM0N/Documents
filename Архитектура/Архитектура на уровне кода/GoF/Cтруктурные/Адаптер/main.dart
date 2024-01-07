@@ -1,7 +1,7 @@
 void main() {
   var animalTransport = new AnimalToTransportAdapter();
   var driver = new Driver(animalTransport);
-  driver.travel()
+  driver.travel();
 }
 
 class Driver {
