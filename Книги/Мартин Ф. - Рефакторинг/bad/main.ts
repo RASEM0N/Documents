@@ -2,8 +2,8 @@
 *
 * Movie                    Retail                     Customer
 * -----               <--  ------                <--  --------
-* priceCode: number        daysRented: number         void statement()
-*
+* priceCode: number        daysRented: number         statement(): void
+*                          getAmount(): number
 * */
 
 
