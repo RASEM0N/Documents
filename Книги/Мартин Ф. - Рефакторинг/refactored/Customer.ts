@@ -1,4 +1,4 @@
-import { Retail } from './Retail';
+import {Retail} from './Retail';
 
 export class Customer {
 
@@ -17,22 +17,19 @@ export class Customer {
     }
 
     public statement(): string {
-        let totalAmount = 0;
-        let frequentRenterPoints = 0;
         let result = `Прокат ${this.name}\n`
-
-        this._retails.forEach((retail) => {
-            const amount = retail.getAmount();
-            frequentRenterPoints += retail.getFrequentRenterPoint();
-
-            result += `"${retail.movie.title}" ${amount}\n`
-            totalAmount += amount;
-        })
-
-        result += `Сумма задолжности: ${totalAmount}\n`
-        result += `Вы зарабали ${frequentRenterPoints} бонусных очков`
-
+        result += this._retails.reduce((r, v) => r + `"${v.movie.title}" ${v.getAmount()}\n`,'')
+        result += `Сумма задолжности: ${this.getTotalAmount()}\n`
+        result += `Вы зарабали ${this.getTotalFrequentRenterPoints()} бонусных очков`
 
         return result
+    }
+
+    private getTotalAmount(): number {
+        return this._retails.reduce((r, v) => r + v.getAmount(), 0)
+    }
+
+    private getTotalFrequentRenterPoints(): number {
+        return this._retails.reduce((r, v) => r + v.getFrequentRenterPoint(), 0);
     }
 }

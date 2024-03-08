@@ -3,8 +3,8 @@
 * Movie                    Retail                              Customer
 * -----               <--  ------                         <--  --------
 * priceCode: number        daysRented: number                  statement(): void
-*                          getAmount(): number
-*                          getFrequentRenterPoint(): number
+*                          getAmount(): number                 getTotalAmount(): number
+*                          getFrequentRenterPoint(): number    getTotalFrequentRenterPoints(): number
 * */
 
 
