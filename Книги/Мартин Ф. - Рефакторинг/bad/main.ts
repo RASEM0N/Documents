@@ -1,12 +1,11 @@
 /*
 *
-* Movie                    Retail                              Customer
-* -----               <--  ------                         <--  --------
-* priceCode: number        daysRented: number                  statement(): void
-*                          getAmount(): number                 getTotalAmount(): number
-*                          getFrequentRenterPoint(): number    getTotalFrequentRenterPoints(): number
+* Movie                               Retail                              Customer
+* -----                          <--  ------                         <--  --------
+* priceCode: number                   daysRented: number                  statement(): void
+* getAmount(): number                 getAmount(): number                 getTotalAmount(): number
+* getFrequentRenterPoint(): number    getFrequentRenterPoint(): number    getTotalFrequentRenterPoints(): number
 * */
-
 
 import { Customer } from './Customer';
 import { Retail } from './Retail';
