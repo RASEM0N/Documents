@@ -1,15 +1,18 @@
 /*
 *
-* Movie                    Retail                     Customer
-* -----               <--  ------                <--  --------
-* priceCode: number        daysRented: number         void statement()
-*
+* AbstractMovie                                Retail                              Customer
+* -----                                  <--   ------                         <--  --------
+* priceCode: number                            daysRented: number                  statement(): void
+* abstract getAmount(): number                 getAmount(): number                 getTotalAmount(): number
+* abstract getFrequentRenterPoint(): number    getFrequentRenterPoint(): number    getTotalFrequentRenterPoints(): number
 * */
 
 
 import { Customer } from './Customer';
 import { Retail } from './Retail';
-import { Movie } from './Movie';
+import { MovieRegular } from './Movie/MovieRegular';
+import { MovieChildren } from './Movie/MovieChildren';
+import { MovieNewRelease } from './Movie/MovieNewRelease';
 
 (() => {
 
@@ -17,14 +20,21 @@ import { Movie } from './Movie';
 
     customer.addRetail(
         new Retail(
-            new Movie('Какой-то фильм 1', 40),
+            new MovieRegular('Какой-то фильм 1', 40),
             60
         ),
     )
 
     customer.addRetail(
         new Retail(
-            new Movie('Какой-то фильм 2', 40),
+            new MovieChildren('Какой-то фильм 3', 80),
+            120
+        ),
+    )
+
+    customer.addRetail(
+        new Retail(
+            new MovieNewRelease('Какой-то фильм 2', 60),
             90
         ),
     )
