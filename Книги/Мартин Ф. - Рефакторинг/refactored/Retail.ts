@@ -1,4 +1,4 @@
-import { Movie } from './Movie';
+import {Movie} from './Movie';
 
 export class Retail {
     constructor(
@@ -43,5 +43,15 @@ export class Retail {
             default:
                 return 0;
         }
+    }
+
+    public getFrequentRenterPoint(): number {
+        let value = 1;
+
+        if (this.movie.priceCode === Movie.NEW_RELEASE && this.daysRender > 1) {
+            value++;
+        }
+
+        return value;
     }
 }

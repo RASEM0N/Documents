@@ -1,5 +1,4 @@
 import { Retail } from './Retail';
-import { Movie } from './Movie';
 
 export class Customer {
 
@@ -23,16 +22,11 @@ export class Customer {
         let result = `Прокат ${this.name}\n`
 
         this._retails.forEach((retail) => {
-            const thisAmount = retail.getAmount();
+            const amount = retail.getAmount();
+            frequentRenterPoints += retail.getFrequentRenterPoint();
 
-            frequentRenterPoints++;
-
-            if (retail.movie.priceCode === Movie.NEW_RELEASE && retail.daysRender > 1) {
-                frequentRenterPoints++;
-            }
-
-            result += `\t${retail.movie.title}\t ${thisAmount}\n`
-            totalAmount += thisAmount;
+            result += `"${retail.movie.title}" ${amount}\n`
+            totalAmount += amount;
         })
 
         result += `Сумма задолжности: ${totalAmount}\n`
