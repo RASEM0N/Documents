@@ -7,7 +7,7 @@ export class Retail {
     ) {
     }
 
-    public get daysRender(): number {
+    public get daysRented(): number {
         return this._daysRented;
     }
 
@@ -16,42 +16,10 @@ export class Retail {
     }
 
     public getAmount(): number {
-
-        switch (this.movie.priceCode) {
-
-            case Movie.CHILDREN: {
-                let thisAmount = 2;
-                if (this.daysRender > 2) {
-                    thisAmount += (this.daysRender - 2) * 1.5
-                }
-                return thisAmount;
-            }
-
-            case Movie.REGULAR: {
-                return this.daysRender * 3
-            }
-
-            case Movie.NEW_RELEASE: {
-                let thisAmount = 1.5;
-
-                if (this.daysRender > 3) {
-                    thisAmount += (this.daysRender - 3) * 1.5
-                }
-                return thisAmount
-            }
-
-            default:
-                return 0;
-        }
+        return this._movie.getAmount(this._daysRented);
     }
 
     public getFrequentRenterPoint(): number {
-        let value = 1;
-
-        if (this.movie.priceCode === Movie.NEW_RELEASE && this.daysRender > 1) {
-            value++;
-        }
-
-        return value;
+        return this._movie.getFrequentRenterPoint(this._daysRented)
     }
 }
