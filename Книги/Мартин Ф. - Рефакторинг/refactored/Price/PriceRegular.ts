@@ -1,6 +1,6 @@
-import { Movie } from './Movie';
+import { Price } from './Price';
 
-export class MovieRegular extends Movie {
+export class PriceRegular extends Price {
     public getAmount(daysRented: number): number {
         return daysRented * 3;
     }

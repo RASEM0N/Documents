@@ -10,9 +10,8 @@
 
 import { Customer } from './Customer';
 import { Retail } from './Retail';
-import { MovieRegular } from './Movie/MovieRegular';
-import { MovieChildren } from './Movie/MovieChildren';
-import { MovieNewRelease } from './Movie/MovieNewRelease';
+import { Movie } from './Movie';
+import { PRICE_CODE } from './Price/Price';
 
 (() => {
 
@@ -20,22 +19,22 @@ import { MovieNewRelease } from './Movie/MovieNewRelease';
 
     customer.addRetail(
         new Retail(
-            new MovieRegular('Какой-то фильм 1', 40),
+            new Movie('Какой-то фильм 1', PRICE_CODE.newRelease),
             60
         ),
     )
 
     customer.addRetail(
         new Retail(
-            new MovieChildren('Какой-то фильм 3', 80),
-            120
+            new Movie('Какой-то фильм 2', PRICE_CODE.children),
+            90
         ),
     )
 
     customer.addRetail(
         new Retail(
-            new MovieNewRelease('Какой-то фильм 2', 60),
-            90
+            new Movie('Какой-то фильм 3', PRICE_CODE.newRelease),
+            120
         ),
     )
 })();

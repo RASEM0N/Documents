@@ -1,6 +1,6 @@
-import { Movie } from './Movie';
+import { Price } from './Price';
 
-export class MovieChildren extends Movie {
+export class PriceChildren extends Price {
     public getAmount(daysRented: number): number {
         let thisAmount = 2;
         if (daysRented > 2) {
