@@ -1,5 +1,7 @@
 # PINIA
-https://pinia.vuejs.org/core-concepts/
+[Документация](https://pinia.vuejs.org/core-concepts/)  
+[Пример 1](https://github.com/lollipopfly/polka)  
+[Пример 2](https://github.com/hoachnt/fsd-vue-antd)
 
 ## База и Options Api
 Я бы назвал это адекватный Vuex, ибо:
