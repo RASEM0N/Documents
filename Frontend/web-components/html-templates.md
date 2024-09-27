@@ -1,4 +1,7 @@
 # HTML Templates
+
+https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_templates_and_slots
+
 `<template>` - это элемент, который позволяет создавать переиспользуемый шаблон - антикопипаст. Элемент`<template>` и его содержимое не отображаются в DOM, но на него все еще можно ссылаться с помощью JavaScript.
 
 ```html
