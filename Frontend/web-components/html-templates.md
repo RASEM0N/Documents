@@ -31,6 +31,7 @@ customElements.define(
       const template = document.getElementById("custom-paragraph");
       const templateContent = template.content;
 
+      // добавляем Shadow DOM к текущему кастомному элементу
       const shadowRoot = this.attachShadow({ mode: "open" });
       
       // добавляем клон контента шаблона в Shadow Dom <my-paragraph>
