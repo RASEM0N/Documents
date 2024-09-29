@@ -13,6 +13,7 @@
 - Оптимизация шривтов - https://habr.com/ru/articles/779504/
 - Загрузка по мере видимости - https://www.patterns.dev/vanilla/import-on-visibility
 - Performance - https://web.dev/learn/performance
+- Уменьшение полезной нагрузки JS - https://web.dev/articles/reduce-javascript-payloads-with-code-splitting?hl=ru
 
 ## Пользовательский опыт
 - RAIL - https://web.dev/articles/rail?hl=ru
