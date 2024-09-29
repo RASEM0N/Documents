@@ -19,10 +19,15 @@
 - Доступность - https://web.dev/learn/accessibility
 - Responsive Design - https://web.dev/learn/de
 
-## Service Worker
+## PWA - Progress Web App
+- PWA - https://web.dev/learn/pwa/
 - Кэширование - https://developer.mozilla.org/ru/docs/Web/API/CacheStorage
 - Workbox - https://web.dev/case-studies/aem-with-workbox?hl=ru
 - Service Worker - https://developer.chrome.com/docs/workbox/service-worker-overview?hl=ru
+
+## Index DB
+- Index DB - https://web.dev/articles/indexeddb?hl=ru
+- Лучшие практики - https://web.dev/articles/indexeddb-best-practices?hl=ru
 
 
 ## Всякое
