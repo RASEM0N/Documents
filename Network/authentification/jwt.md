@@ -1,5 +1,6 @@
 # Json Web Token Authentication
 
+- https://habr.com/ru/companies/vk/articles/343288/
 - https://jwt.io/introduction
 - https://jwt.io/#debugger-io
 - https://roadmap.sh/guides/jwt-authentication
