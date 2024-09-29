@@ -24,7 +24,9 @@
 - PWA - https://web.dev/learn/pwa/
 - Кэширование - https://developer.mozilla.org/ru/docs/Web/API/CacheStorage
 - Workbox - https://web.dev/case-studies/aem-with-workbox?hl=ru
-- Service Worker - https://developer.chrome.com/docs/workbox/service-worker-overview?hl=ru
+- Service Worker 
+  - https://developer.chrome.com/docs/workbox/service-worker-overview?hl=ru
+  - https://web.dev/articles/service-worker-lifecycle?hl=ru#avoid_url_change
 
 ## Index DB
 - Index DB - https://web.dev/articles/indexeddb?hl=ru
