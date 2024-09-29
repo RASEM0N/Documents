@@ -1,12 +1,12 @@
 # Хороший материал
 
+Хороший сайт с разным контентом по Frontend с интерактивностью https://www.patterns.dev/vanilla/bundle-splitting
+
 ## Мапкарты
 - Frontend - https://roadmap.sh/frontend
 - Backend -  https://roadmap.sh/backend
 
 ## Оптимизация
-Там всякие подходы есть https://www.patterns.dev/vanilla/bundle-splitting
-
 - PRPL - https://web.dev/articles/apply-instant-loading-with-prpl?hl=ru
 - PRPL - https://www.patterns.dev/vanilla/prpl
 - Кэширование - https://web.dev/learn/pwa/caching?hl=ru
@@ -28,7 +28,6 @@
 ## Index DB
 - Index DB - https://web.dev/articles/indexeddb?hl=ru
 - Лучшие практики - https://web.dev/articles/indexeddb-best-practices?hl=ru
-
 
 ## Всякое
 - Form -  https://web.dev/learn/forms
