@@ -28,6 +28,9 @@
   - https://developer.chrome.com/docs/workbox/service-worker-overview?hl=ru
   - https://web.dev/articles/service-worker-lifecycle?hl=ru#avoid_url_change
 
+Service Worker + Кэширование + Workbox
+  - https://save-for-offline-test.glitch.me/index2.html
+
 ## Index DB
 - Index DB - https://web.dev/articles/indexeddb?hl=ru
 - Лучшие практики - https://web.dev/articles/indexeddb-best-practices?hl=ru
