@@ -21,6 +21,9 @@
 - Responsive Design - https://web.dev/learn/de
 
 ## PWA - Progress Web App
+
+Репозиторий, где все из того, что и больше испозуем https://github.com/RASEM0N/PWA
+
 - PWA - https://web.dev/learn/pwa/
 - Кэширование - https://developer.mozilla.org/ru/docs/Web/API/CacheStorage
 - Workbox - https://web.dev/case-studies/aem-with-workbox?hl=ru
