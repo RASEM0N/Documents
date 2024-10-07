@@ -4,6 +4,7 @@
 - https://habr.com/ru/articles/786102/
 - https://habr.com/ru/articles/444276/
 - https://medium.com/@Vaibhavihole31/react-fiber-architecture-b8ac9f38cfb5
+- https://github.com/acdlite/react-fiber-architecture?tab=readme-ov-file
 
 Видео:
 - https://www.youtube.com/watch?v=A0W2n2azH5s
