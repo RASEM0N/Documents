@@ -1,6 +1,11 @@
 # Хороший материал
 
-Хороший сайт с разным контентом по Frontend с интерактивностью https://www.patterns.dev/vanilla/bundle-splitting
+Хороший сайт с разным контентом
+- https://www.patterns.dev/
+- https://www.lydiahallie.com/
+- https://web.dev/
+- https://vercel.com/guides
+- https://vercel.com/blog
 
 ## Мапкарты
 - Frontend - https://roadmap.sh/frontend
